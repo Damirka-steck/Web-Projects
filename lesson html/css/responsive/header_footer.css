@@ -1,0 +1,148 @@
+/*
+>= 1200
+992 - 1199
+768 - 991
+576 - 768
+460 - 576 
+414 - 460
+375 - 414
+320 - 374
+*/
+
+@media screen and (max-width: 1199px){
+    header form div{
+        width: 238px;
+    }
+}
+
+@media screen and (max-width: 991px){
+
+    header > .container{
+        flex-wrap: wrap;
+        justify-content:center;
+    }
+    header > .container > img{
+        margin-right: 35px;
+    }
+    header > .container form, header > .container .cart{
+        margin-top: 15px;
+    }
+    header > .container form{
+        margin-right: 20px;
+    }
+    header form div{
+        width: 335px;
+    }
+
+    footer .right form div {
+            width: 216px;
+            margin-left: 120px;
+    }
+}
+
+@media screen and (max-width: 767px){
+
+    header .menu{
+        margin: 15px 0px;
+    }
+    footer .container{
+        flex-wrap: wrap;
+    }
+
+    footer .right{
+    margin: 20px auto 0;
+    }
+
+    footer .left nav {
+        margin-left: 202px;
+    }
+
+    footer .container_copyrights{
+        margin-top: 18px;
+    }
+}
+
+@media screen and (max-width: 576px){
+    header form div{
+        width: 306px;
+    }
+   
+    header .burger{
+        display: inline-block;
+    }
+
+    header .container .menu{
+        display: none;
+    }
+
+    header .container .menu a{
+        margin: 0 10px;
+        display: block;
+        margin-top: 17px;
+        margin-bottom: 17px;
+    }
+
+    header .container .menu a:hover, header .container .menu a.active{
+        border: none;
+        margin-top: 17px;
+        margin-bottom: 17px;
+        padding: 0;
+    }
+
+    footer .left nav {
+        margin-left: 110px;
+    }
+
+    
+}
+@media screen and (max-width: 460px){
+    
+    header form div{
+        width: 190px;
+    }
+
+    header form div input{
+        width: 110px;
+    }
+
+    footer .container_copyrights{
+        margin-left: 40px;
+    }
+
+    footer .left nav {
+        margin-left: 80px;
+    }
+
+}
+
+@media  screen and (max-width: 378px) {
+
+        footer .left{
+        display: block;
+    }
+    
+    footer .left figure{
+        text-align: center;
+    }
+
+    footer .left figure figcaption {
+        width: auto;
+    }
+
+   footer .right form div{
+    margin-left: 80px
+   }
+
+   footer .right .box{
+    margin-right: auto;
+   }
+
+   footer .left nav {
+    margin-top: 45px;
+   }
+
+   footer .right .inst{
+    margin-left: 43px;
+   }
+
+}

@@ -1,0 +1,99 @@
+/*
+>= 1200
+992 - 1199
+768 - 991
+576 - 768
+460 - 576 
+414 - 460
+375 - 414
+320 - 374
+*/
+
+@media screen and (max-width: 1199px){
+    .block1 .items .boxes{
+    margin-left: 37px;
+    }
+
+    .adv div{
+        display: -webkit-inline-box;
+    }
+
+    .adv div p{
+        max-width: none;
+        text-align: center;
+        margin-bottom: 35px;
+    }
+
+    .block1 .menu{
+        margin-right: 5px
+    }
+
+}
+
+@media screen and (max-width: 991px){
+    .new > .box{
+        margin-left: 20px;
+        flex-wrap: wrap;
+    }
+
+    .adv div {
+        display: ruby;
+    }
+
+    .new {
+        flex-wrap: wrap;
+    }
+
+    .popular{
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 767px){
+
+    .block1{
+        display: block;
+        text-align: center;
+    }
+
+    .block1 .menu{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .block1 .items .sort p{
+        margin-top: 30px;
+    }
+
+    .boxes .box figure p{
+        text-align: center;
+  
+    }
+
+    .popular{
+        justify-content: space-around;
+    }
+}
+
+@media screen and (max-width: 576px){
+    .block1 .items div div{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .sub form div input[type='submit']{
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 460px){
+    .new{
+    justify-content: space-evenly;
+    }
+}
+
+@media  screen and (max-width: 378px){
+    .adv div {
+        display: inherit;
+    }
+}

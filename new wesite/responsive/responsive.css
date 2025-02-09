@@ -1,0 +1,594 @@
+
+@media screen and (max-width: 1199px){
+    .header_topleft .menu_link {
+        font-size: 15px;
+    }
+
+    .header_topleft .menu {
+        left: 0;
+    }
+
+    .header_topcenter {
+        margin: 0 30px;
+    }
+
+    .header_topright .link_social >a >img{
+        margin-right: 4px;
+        margin-left: 1px;
+        padding-left: 1px;
+        width: 20px;
+        height: 20px;
+    }
+    
+    .header_topright .phone{
+        width: 120px;
+    }
+
+    .header_topright .currensy select {
+        margin-left: 0px;
+    }
+
+    .header_topright .icon >img {
+        margin-right: 4px;
+        margin-left: 3px;
+        padding-left: 0px;
+    }
+
+
+    .header_topright .icon >img{
+        width: 23px;
+        height: 23px;
+    }
+
+    .header_topright {
+        left: 0;
+    }
+
+    .img_products{
+        margin: 76px;
+       margin-right: auto;
+    }
+
+    .img_products > div >img{
+        height: 183px;
+    }
+
+    .img_products .slr{
+        height: 173px;
+    }
+
+    .our_prem{
+        margin-top: 345px;
+    }
+
+    .prem .prem2{
+        width: 100px;
+    }
+}
+
+@media screen and (max-width: 991px){
+
+    .header_topleft .menu {
+        display: block;
+        margin-bottom: 20px;
+    }
+
+    .header_topleft .menu li a {
+        font-size: 18px;
+    }
+
+    .header_topcenter {
+        width: 200px;
+        height: 125px;
+    }
+
+    .header_topcenter .logo {
+        width: 200px;
+        height: 125px;
+    }
+
+    .header_topright {
+        flex-wrap: wrap;
+        width: 195px;
+        margin-bottom: 20px;
+    }
+
+    .header_topright .phone {
+        width: 185px;
+        margin-bottom: 15px;
+    }
+
+    .header_topright .phone > a {
+        text-decoration: none;
+        color: inherit;
+        font-size: 23px;
+    }
+
+    .header_topright .link_social >a >img {
+        margin-right: 20px;
+        margin-left: 1px;
+        padding-left: 1px;
+        width: 25px;
+        height: 25px;
+    }
+
+    .header_topright .currensy{
+        margin: 1px 1px;
+    }
+
+    .header_topright .icon >img {
+        width: 26px;
+        height: 26px;
+        margin: 0 10px;
+    }
+
+    .main .name_store {
+        font-size: 2em;
+    }
+
+    .main .description {
+        font-size: 18px;
+        top: 275px;
+    }
+
+    .b-container {
+        margin-top: 309px;
+        margin-left: 30%;
+    }
+
+    .b-container > a {
+        font-size: 24px;
+    }
+
+    .prem .prem2 {
+        width: 75px;
+    }
+
+    .img_products .nkwolfe{
+        margin-left: 85px;
+    }
+
+    .img_products {
+        max-width: 100%;
+        justify-content: center;
+    }
+
+    .img_products > div >img {
+        height: 150px;
+        position: relative;
+        right: 33px;
+    }
+
+    .discription_products .price2{
+        position: relative;
+        left: 20px;
+    }
+
+    .discription_products .wie2{
+        position: relative;
+        right: 26px;
+    }
+
+    .discription_products .wie3{
+        position: relative;
+        right: 23px;
+    }
+
+    .discription_products .price3{
+        margin-left: 0;
+    }
+
+    .img_products .slr {
+        height: 140px;
+    }
+
+    .discription_products .discription_naked{
+        margin-left: 44px;
+    }
+
+    .discription_products {
+        right: 157px;
+        top: 150px;
+        margin: -15px;
+        
+    }
+
+    .discription_products .price {
+        position: relative;
+        top: 30px;
+        margin: 10px 24px;
+    }
+
+    .sl:hover .slr_hover {
+        width: 125px;
+        height: 125px;
+        display: block;
+    }
+
+    .our_prem {
+        margin-top: 235px;
+        margin-left: 33%;
+    }
+}
+
+@media screen and (max-width: 767px){
+
+    .region_list {
+        right: 35%;
+    }
+
+    .main .name_store {
+        font-size: 1.7em;
+    }
+
+    .main .description {
+        font-size: 14px;
+        top: 282px;
+        font-weight: 600;
+        color: #d9d5c7;
+    }
+
+    .b-container {
+        margin-top: 317px;
+        margin-left: 29%;
+    }
+
+    .b-container > a {
+        font-size: 18px;
+    }
+
+    .img_products {
+        margin-left: 93px;
+    }
+
+    .img_products > div {
+        margin-right: -32px;
+    }
+
+    .img_products > div >img {
+        height: 135px;
+        right: 59px;
+    }
+
+    .img_products .nkwolfe {
+        margin-left: 79px;
+    }
+
+    .discription_products .wie2{
+        top: 16px;
+    }
+
+    .discription_products .price4{
+        position: relative;
+        top: 18px;
+    }
+
+    .img_products .slr {
+        height: 112px;
+    }
+
+    .img_products .slr_hover {
+        height: 112px;
+        width: 112px;
+        bottom: 19px;
+    }
+
+
+    .discription_products .discrpt_text{
+        font-size: 14px;
+    }
+
+    .our_prem {
+        margin-top: 220px;
+        margin-left: 27%;
+    }
+
+    .prem_figure{
+        width: 32px;
+    }
+
+    .prem {
+        margin-top: -30px;
+    }
+
+    .prem .prem2 {
+        width: 55px;
+    }
+
+    .footer .socialM .tg {
+        left: 10px;
+      
+    }
+
+    .footer .nav{
+        margin-left: 30px;
+    }
+
+    .footer .socialM p {
+        display: flow-root;
+        font-size: 18px;
+
+    }
+    
+}
+
+@media screen and (max-width: 576px){
+
+    .region_list {
+        right: 31%;
+    }
+
+    .header_topleft .menu li a {
+        font-size: 16px;
+    }
+
+    .header_topcenter {
+        width: 114px;
+        height: 100px;
+        position: relative;
+        top: 75px;
+    }
+
+    .header_topcenter .logo {
+        width: 114px;
+        height: 100px;
+    }
+
+    .header_topcenter {
+        width: 114px;
+    }
+
+    .header_topright {
+        width: 187px;
+    }
+
+    .header_topright .phone {
+        width: 108px;
+    }
+
+    .header_topright .phone > a {
+        font-size: 15px;
+    }
+
+    .header_topright .link_social >a >img {
+        margin-right: 5px;
+        width: 20px;
+        height: 20px;
+    }
+
+    .header_topright .currensy {
+        margin: 13px 1px;
+    }
+
+    .header_topright .currensy select {
+        height: 20px;
+    }
+
+    .header_topright .icon >img {
+        width: 23px;
+        height: 23px;
+        margin: 10px 3px;
+    }
+
+    .main{
+        height: 600px;
+    }
+
+    .main .name_store {
+        font-size: 30px;
+        width: 170px;
+        position: relative;
+        left: 195px;
+    }
+
+    .main .description {
+        top: 195px;
+        left: 85px;
+    }
+
+    .b-container {
+        margin-top: 230px;
+        margin-left: 28%;
+    }
+
+    .b-container > a {
+        font-size: 14px;
+    }
+
+    main .products {
+        margin-left: 25%;
+    }
+
+    .img_products {
+        margin-left: 50px;
+        flex-wrap: wrap;
+    }
+
+    .img_products > div >img {
+        height: 160px;
+        bottom: 30px;
+        right: 166px;
+        width: 160px;
+    }
+
+    .discription_products .wie {
+        width: 200px;
+    }
+    
+    .nkwolfe .nakedwlf{
+        right: 90px;
+    }
+
+    .nkwolfe .nakedwlf_hover {
+        right: 90px;
+    }
+
+    .discription_products .txt_wolf{
+        width: 85%;
+        right: auto;
+        left: 180px!important;
+    }
+
+    .discription_products .discription_naked {
+        margin-left: 0px;
+    }
+
+    .loubutin .lb, .loubutin .lb_hover{
+        right: 55px;
+        bottom: 90%;
+        margin-top: 110px;
+    }
+
+    .discription_products .txt_lb{
+        width: 90%;
+        left: 175px!important;
+        margin-top: 185px !important;
+    }
+
+    .dsc_lb{
+        position: relative;
+        top: -35px;
+    }
+
+    .dsc_sl{
+        position: relative;
+        top: -230px;
+        height: 0;
+    }
+
+    .sl .slr, .img_products .slr_hover{
+        position: relative;
+        bottom: 401px;
+        right: 48px;
+        margin-top: 215px;
+    }
+
+    .discription_products .txt_sl{
+        width: 89%;
+        left: 190px!important;
+        margin-top: 285px !important;
+    }
+
+    .img_products div h3 a {
+        margin-left: 62px;
+    }
+
+    .discription_products .price2 {
+        left: 260px!important;
+        top: -355px!important;
+    }
+
+    .discription_products .price {
+        left: 135px;
+        top: -360px;
+        left: 280px;
+        max-width: 300px;
+    }
+
+    .discription_products .price3 {
+        margin-left: 35px;
+    }
+
+    .discription_products .discrpt_text {
+        font-size: 17px;
+        position: relative;
+        bottom: 350px;
+        left: 131px;
+        margin-top: 100px;
+    }
+
+
+    .our_prem {
+        margin-left: 24%;
+        position: relative;
+        bottom: 250px;
+    }
+
+    .prem {
+        margin-top: -30px;
+        position: relative;
+        bottom: 200px;
+    }
+
+    .prem_figure {
+        width: 25px;
+    }
+
+    .footer{
+        height: 440px;
+        margin-top: 0;
+    }
+
+    .footer .socialM {
+        height: 100px;
+        top: 200px;
+    }
+
+    .footer .socialM p {
+        display: ruby-text;
+        position: relative;
+        top: 45px;
+        right: 30px;
+    }
+
+}
+
+@media screen and (max-width: 460px){
+
+    .header_topright .currensy {
+        margin: 1px 1px;
+    }
+
+    .main .name_store {
+        left: 165px;
+    }
+
+    .main .description {
+        font-size: 13px;
+    }
+
+    .discription_products .price2 {
+        left: 215px !important;
+    }
+
+    .discription_products .price {
+        left: 239px;
+    }
+
+    .discription_products .txt_sl {
+        width: 89%;
+        left: 165px !important;
+    }
+
+    .prem_figure {
+        width: 7px;
+    }
+
+    .prem .prem2 {
+        width: 45px;
+    }
+
+    .prem_figure figcaption{
+        font-size: 14px;
+    }
+
+    .footer .socialM {
+        height: 100px;
+        top: 200px;
+        position: relative;
+        top: 85%;
+    }
+
+    .footer .socialM p{
+        display: ruby-text;
+    }
+
+    .footer .nav {
+        margin-left: 19px;
+    }
+
+}
+
+@media  screen and (max-width: 378px){
+
+}

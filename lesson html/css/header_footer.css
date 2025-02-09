@@ -1,0 +1,244 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face{
+    font-family: opensans;
+    font-weight: normal;
+    font-style: normal;
+    src: url("../css/fonts/OpenSans_Condensed-Regular.ttf");
+
+}
+
+@font-face{
+    font-family: opensans;
+    font-weight: 600;
+    src: url("../css/fonts/OpenSans_Condensed-SemiBold.ttf");
+
+}
+
+.container-floid{
+    width: 100%;
+}
+
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.d-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+body{
+    font-family: "opensans", Arial, Helvetica, sans-serif;
+    width: 100%;
+    font-size: 16px;
+}
+
+header >.container{
+    padding: 40px 20px;
+}
+
+header .logo {
+    width: 150px;
+    height: 140px;
+    margin-left: 40px
+    
+}
+
+header .burger{
+    width: 40px;
+    display: none;
+    margin: 0!important;
+}
+
+header .container .menu a {
+    font-size: 0.875em;
+    text-decoration:none;
+    color: #4b4b4e;
+    margin: 0px 20px;
+}
+
+header .container .menu a:hover,
+header .container .menu a.activ {
+    color: #dfa52b;
+    font-weight: 600;
+    padding-bottom: 7px;
+    border-bottom: 3px solid #ebb217
+}
+
+header form div{
+    justify-content: center;
+    padding: 10px 20px;
+    border: 1px solid #ebb217;
+    border-radius: 50px;
+    width: 320px;
+}
+
+header form div input[type="text"]{
+    border: none;
+    margin-right: 10px;
+}
+
+header form div input[type="submit"]{
+    background: url("../images/search.png") no-repeat;
+    background-size: cover;
+    width: 20px;
+    height: 19px;
+    border: none;
+}
+
+header form div input[type="submit"] :hover{
+    cursor: pointer;
+}
+
+.cart img{
+    height: 45px;
+    width: 45px;
+    margin-right: 7px
+}
+
+header .cart > div{
+    align-items: flex-start;
+}
+
+header .cart div p{
+    font-size: 0.938em;
+}
+
+header .cart div a{
+    height: 20px;
+    width: 20px;
+    font-size: 0.750em;
+    color: #ebb217;
+    text-decoration:none;
+}
+
+footer{
+    background-color: #4b4b4e;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+footer .container{
+    align-items: flex-start;
+}
+
+footer .logo_footer{
+    background-color: #4b4b4e;
+    width: 201px;
+    height: 177px;
+
+}
+
+footer .left{
+    align-items: flex-start;
+}
+
+footer .left figure figcaption {
+    color: #f3f3f3;
+    font-size: 0.875em;
+    margin-top: 25px;
+    width: 138px;
+}
+
+footer .left nav{
+    margin-left: 100px;
+}
+
+footer .left nav a{
+    display: block;
+    font-size: 0.875em;
+    color: #ffffff;
+    margin-bottom: 20px;
+    text-decoration: none
+}
+
+footer .left nav a:hover,
+footer .left nav a.activ {
+    color: #dfa52b;
+
+}
+
+footer .right form div{
+    justify-content: left;
+    width: 458px;
+    border-bottom:1px solid #ffffff ;
+}
+
+footer .right form input[type='text']{
+    padding:8px 0 ;
+    width: 100%;
+    background: none;
+    border: none;
+}
+
+footer .right form input[type='submit']{
+    width: 20px;
+    height: 20px;
+    background: url('../images/search-footer.png') no-repeat;
+    background-size: cover;
+}
+
+footer .media{
+    text-align: center;
+    font-size: 0.875em;
+    color: #ffffff;
+    margin-top: 33px;
+    margin-bottom: 15px;
+}
+
+footer .right .box{
+    width: 35px;
+    height: 35px;
+    border-radius: 50px;
+    margin: 16px 16px 0;
+}
+
+footer .right .inst{
+    background: url(../images/inst.png) no-repeat;
+    background-size: cover;
+    margin-left: 143px;
+
+}
+
+footer .right .inst:hover{
+    background: url(../images/inst\ hover.jpg) no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+footer .right .telegram{
+    background: url('../images/tg.png') no-repeat;
+    background-size: cover;
+}
+
+footer .right .telegram:hover{
+    background: url('../images/tg_hover.jpg') no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+
+footer .right .VK{
+    background: url('../images/vk.png') no-repeat;
+    background-size: cover;
+    margin-right: 147px;
+}
+
+footer .right .VK:hover{
+    background: url('../images/vk_hover.jpg') no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+
+footer .container_copyrights{
+    text-align: center;
+    color: #f3f3f3;
+    font-size: 0.875em;
+    margin-top: 60px;
+
+}

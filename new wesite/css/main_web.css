@@ -1,0 +1,312 @@
+
+
+
+.header_topleft{
+    margin-bottom: 93px;
+}
+
+
+
+.header_topleft .menu{
+    display: flex;
+    position: relative;
+    left: 15px;
+    top: 135px;
+    align-items: center;
+}
+
+.header_topleft .menu li{
+    list-style: none;
+    padding-left: 13px;
+}
+
+.header_topleft .menu_link {
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.header_topleft .menu li a{
+    text-decoration: none;
+    background-color: transparent;
+    color: inherit;
+}
+
+.header_topleft .menu li a:hover{
+    color: #c0ae46;
+}
+
+.header_topcenter{
+    width: 140px;
+    height: 90px;
+    position: relative;
+    right: 1%;
+    top: 50px;
+    
+}
+
+.header_topcenter .logo{
+    width: 140px;
+    height: 90px;
+}
+
+.header_topright{
+    display: inline-flex;
+    position: relative;
+    right: 2%;
+    top: 88px;
+    
+}
+
+.header_topright .phone {
+    margin-top: 5px;
+}
+
+.header_topright .phone > a{
+    text-decoration: none;
+    color: inherit;
+    font-size: 16px;
+}
+
+.header_topright .link_social >a >img{
+    margin-left: 5px;
+    padding-left: 2px;
+    width: 25px;
+    height: 25px;
+    border-radius: 5px;
+}
+
+.header_topright .currensy select{
+    height: 25px;
+    margin-left: 10px;
+}
+
+.header_topright .icon >img{
+    height: 25px;
+    width: 25px;
+    margin-left: 5px;
+    padding-left: 10px;
+}
+
+.main{
+    background-image: url("/images/backgraund_banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 858px;
+    margin-top: 30px;
+    width: 100%;
+}
+
+.main .name_store{
+    color: #fff;
+    font-size: 3em;
+    position: relative;
+    left: 42%;
+    top: 35%;
+    width: 26%;
+}
+
+
+.main .description {
+    color: #e9e7e1;
+    display: flex;
+    position: relative;
+    left: 22%;
+    font-size: 20px;
+    top: 250px;
+    max-width: 74%;
+}
+
+.b-container{
+    margin-top: 300px;
+    margin-left: 35%;
+}
+
+.b-container > a{
+    border: #4e3601 solid;
+    background-color: #4e3601;
+    margin:0px auto;
+    padding:10px;
+    font-size:30px;
+    text-decoration: none;
+    color: #fff;
+}
+
+
+.b-popup{
+    width:100%;
+    min-height:100%;
+    background-color: rgba(0,0,0,0.5);
+    overflow:hidden;
+    position:fixed;
+    top:0px;
+}
+.b-popup .b-popup-content{
+    margin:40px auto 0px auto;
+    width:320px;
+    padding:10px;
+    background-color: #fff;
+    border-radius:5px;
+    box-shadow: 0px 0px 10px #000;
+    
+}
+
+.b-popup-content .close_popup >img{
+    width: 25px;
+    position: relative;
+    left: 88%;
+    bottom: 384px;
+    border-radius: 20px;
+}
+
+.b-popup-content > form > strong{
+    font-size: 20px;
+}
+
+.b-popup-content > form > div > input{
+    height: 30px;
+    width: 80%;
+}
+
+.b-popup-content .input_popup{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.b-popup-content .submit{
+    background-color: #4e3601;
+    color: #fff;
+    height: 30px;
+    position: relative;
+    left: 40px;
+    width: 200px;
+}
+
+main .products{
+    margin-left: 38%;
+}
+
+.img_products{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 130px ;
+    
+
+}
+
+.img_products > div{
+    height: 255px;
+    
+}
+
+.img_products > div >img{
+    height: 255px;
+    
+}
+
+.nkwolfe .nakedwlf_hover{
+    display: none;
+    
+}
+
+.nkwolfe:hover .nakedwlf{
+    display: none;
+    
+}
+
+.nkwolfe:hover .nakedwlf_hover{
+    display: block;
+}
+
+
+.loubutin .lb_hover{
+    display: none;
+}
+
+.loubutin:hover .lb{
+    display: none;
+;
+}
+
+.loubutin:hover .lb_hover{
+    display: block;
+}
+
+.sl .slr{
+    height: 210px;
+}
+
+.sl .slr_hover{
+    display: none;
+    bottom: 80px;
+}
+
+.sl:hover .slr{
+    display: none;
+}
+
+.sl:hover .slr_hover{
+    display: block;
+}
+
+.img_products > div > p{
+    margin: 20px 0;
+}
+
+.img_products div h3 a{
+    text-decoration: none;
+    color: #3a3636;
+    margin-left: 25px;
+}
+
+.discription_products{
+    position: relative;
+    right: 190px;
+    top: 232px;
+    margin-top: 30px;
+}
+
+
+
+.discription_products .price2{
+    position: relative;
+    top: 30px;
+    
+}
+
+.discription_products .price{
+    position: relative;
+    top: 30px;
+}
+
+.discription_products .wie{
+    display: block;
+    width: 125px;
+    border: #4e3601 solid;
+    background-color: #4e3601;
+    color: #d1d1d1;
+    text-decoration: none;
+    box-shadow: 10px 10px 10px #000;
+    transition-duration: 0.5s;
+    transition-delay: .3s;
+}
+
+.discription_products .wie:hover{
+    background-color: #a77c1f;
+    border: #a77c1f solid;
+    color: #fff;
+    
+}
+
+.our_prem{
+    margin-left: 41%;
+    margin-top: 300px;
+    margin-bottom: 50px;
+    color: #61470f;
+}
+
+.prem{
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 50px;
+}
+

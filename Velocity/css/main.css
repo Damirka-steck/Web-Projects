@@ -1,0 +1,286 @@
+section{
+    padding: 80px 0;
+}
+
+/* --WEKCOME--  */
+.welcome {
+    min-height: 600px;
+    padding: 195px 0;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: #fff;
+    text-align: center;
+    
+    background-color: #282936;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    animation-name: firstAnim;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+}
+
+@keyframes firstAnim{
+    from{background-image: url('/images/bg_main1.jpg');}
+    to{background-image: url('/images/bg_main2.jpg');}
+}
+
+
+
+.welcome_heading {
+    font-size: 60px;
+    line-height: 1;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 106px;
+}
+
+.welcome_links > * + *{
+    margin-left: 20px;
+}
+
+.welcome_links a {
+    color: #fff;
+}
+
+.link-primary {
+    display: inline-block;
+    border-radius: 4px;
+    border: 1px solid #fff;
+    width: 183px;
+    height: 45px;
+
+    font-size: 16px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    padding: 10px 31px 12px 31px;
+
+    
+}
+
+.link {
+
+    font-size: 16px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #fff;
+
+    border: 1px solid #fff;
+    border-radius: 4px;
+    width: 183px;
+    height: 45px;
+    display: inline-block;
+    padding: 10px 31px 12px 31px;
+}
+
+
+
+.link-primary:hover, .link:hover,
+.link-primary:active, .link:active{
+    background: #0080F0;
+    transition: background-color .5s;
+}
+
+/* section ABOUT(WHAT WE DO) */
+.common-section {
+    text-align: center;
+    padding: 80px 0; 
+}
+
+.common-section-dark{
+    background: #192024;
+}
+
+.tt_wrapper {
+    margin-bottom: 60px;
+}
+
+.title {
+    font-size: 30px;
+    letter-spacing: 0.17em;
+    text-transform: uppercase;
+    color: #676770;
+    margin-bottom: 17px;
+}
+
+.subtitle {
+    font-size: 17px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: #8e8e9c;
+}
+
+
+.cards_wrapper h4 {
+    margin-bottom: 15px;
+
+    font-size: 20px;
+    letter-spacing: 0.35em;
+    line-height: 1.5;
+    text-transform: uppercase;
+    color: #676770;
+
+}
+
+p{
+    font-size: 14px;
+    color: #6a859c;
+}
+
+.about .cards_wrapper{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.about .card {
+    padding: 36px 15px 25px 15px;
+    max-width: 300px;
+    border: 1px solid #dcebf7;
+    border-radius: 5px;
+}
+
+.about .card img{
+    margin-bottom: 20px;
+
+    width: 94px;
+    height: 94px;
+    object-fit: contain;
+}
+
+/* ----SERVISES---- */
+.servises .container {
+    text-align: center;
+}
+
+.servises .title {
+    font-size: 30px;
+    line-height: 120%;
+    letter-spacing: 0.17em;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.servises .subtitle {
+    font-size: 17px;
+    line-height: 118%;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: #e8e8e8;
+
+    padding-top: 17px;
+    padding-bottom: 62px;
+}
+
+.servises .cards_wrapper img {
+    width: 430px;
+    height: 287px;
+
+    padding-bottom: 20px;
+}
+
+.servises .cards_wrapper h4{
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: 0.35em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+}
+
+.servises .cards_wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.servises .cards_wrapper p{
+    font-size: 14px;
+    line-height: 179%;
+    color: #fff;
+
+    padding: 23px 0;
+}
+
+.servises .card{
+    width: 45%;
+}
+
+.servises .card + .servises .card{
+    margin-left: 20px
+
+}
+
+
+/* ----TAB SECTION---- */
+
+.tab-section {
+    text-align: center;
+}
+
+.tabs_nav {
+    margin-bottom: 50px;
+}
+
+.tabs_nav button + button{
+    margin-left: 15px;
+}
+
+.button {
+    font-size: 16px;
+
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+
+    color: #fff;
+    background: #92a0ad;
+
+    border-radius: 4px;
+    padding: 0 30px;
+}
+
+.active{
+    background: #2e80b6;
+}
+
+.tabs_item img{ 
+    margin-bottom: 15px;
+    height: 627px;
+    width: 947px;
+}
+
+.tabs_item h4 {
+    margin-bottom: 15px;
+
+    font-size: 31px;
+    line-height: 116%;
+    color: #676770;
+}
+
+.tabs_item{
+    animation: fade 1.5s;
+}
+
+@keyframes fade{
+    from{
+        opacity: 0.3;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+.tabs_desc{
+    max-width: 720px;
+
+    margin: 0 auto;
+}

@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Secular+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Secular+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Secular+One&display=swap');
+
+.wrapper-down {
+    display: grid;
+    grid-template: "footer sidebar" 1fr / 4.5fr 1.5fr;
+}
+
+.footer {
+    grid-area: footer;
+    background-color: #2F2F2F;
+
+    display: grid;
+    grid-template:  '. socials form logo' max-content
+                    '. . . copy' / 1fr 1fr 2fr 0.5fr;
+
+
+    padding-top: 80px;
+    align-items: end;
+    align-content: center;
+
+    color: #fff;
+}
+
+.socials {
+    grid-area: socials;
+    display: flex;
+    gap: 10px;
+}
+
+.socials_link {
+    border: 2px solid #fff;
+    border-radius: 50%;
+    display: flex;
+
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s opacity;
+}
+
+.socials_link:hover{
+    opacity: 0.8;
+}
+
+.socials_link:active{
+    opacity: 0.6;
+}
+
+.socials_icon{
+    width: 20px;
+    height: 20px;
+}
+
+.form {
+    grid-area: form;
+    text-transform: uppercase;
+    
+}
+
+.form_title {
+    font-size: 18px;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+}
+
+.form_row {
+    display: flex;
+}
+
+.form_input {
+    height: 40px;
+    width: 200px;
+    padding: 0 20px;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.8);
+    text-transform: uppercase;
+}
+
+.form_input:focus{
+    background-color: rgba(255, 255, 255);
+}
+
+.form-submit_btn {
+    background-color: #00C2BA;
+    color: #fff;
+    height: 40px;
+    padding: 0 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+    transition: background-color 0.3s;
+}
+
+.form-submit_btn:hover{
+    background-color: #00ACA5;
+}
+
+.form-submit_btn:active{
+    background-color: #009791;
+}
+
+
+
+.logo_img {
+    background-color: #2F2F2F;
+    grid-area: logo;
+
+}
+
+.copy {
+    grid-area: copy;
+    color: #6a6a6a;
+    align-self: center;
+    justify-self: center;
+}
+
+.sidebar {
+    grid-area: sidebar;
+    background-color: #00C2BA;
+}
+
+.btn-rounded {
+    border-radius: 20px;
+    padding: 7px 20px;
+}
+
+.sidebar p + .btn{
+    margin-top: 20px;
+}
+
+.sidebar .title{
+    width: 100px; 
+}

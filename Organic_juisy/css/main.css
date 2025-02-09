@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Secular+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Secular+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Secular+One&display=swap');
+
+.main {
+    display: grid;
+    /* grid-template-rows: 3fr 1fr 3fr ;
+    grid-template-columns: 2fr 1fr 1.5fr 1.5fr;
+    grid-template-areas: 'slider-arrows healthy thirsty thirsty'
+                         'slider-arrows healthy slider-dots orange'
+                         'freshy healthy slider-dots orange'; */
+
+
+    grid-template: 'slider-arrows healthy thirsty thirsty' 3fr
+                   'slider-arrows healthy slider-dots orange' 1fr
+                   'freshy healthy slider-dots orange' 3fr / 2fr 1fr 1.5fr 1.5fr;
+}
+
+/* ---SLIDER ARROWS */
+.slider-arrows {
+    position: relative;
+    grid-area: slider-arrows;
+}
+
+.slider_arrows-items_wrapper {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.slider-arrows_item {
+    width: 100%;
+}
+
+.slider-arrows_nav {
+    position: absolute;
+    left: 0;
+    top: 50%;
+
+    width: 100%;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    transform: translateY(-50%);
+
+
+}
+
+.arrows {
+    color: #fff;
+    border: 2px solid #fff;
+    font-size: 30px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+
+    transition: 0.2s opacity;
+}
+
+.arrows:hover{
+    opacity: .8;
+}
+
+.arrows:active{
+    opacity: .6;
+}
+
+
+.btn {
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.2);
+    text-transform: uppercase;
+
+    border: 2px solid #fff;
+    letter-spacing: 2px;
+
+    padding: 10px 20px;
+    font-size: 16px;
+    transition: 0.2s opacity;
+}
+
+.btn:hover{
+    opacity: 0.8;
+}
+
+.btn:active{
+    opacity: 0.6;
+}
+
+/* SLIDER DOTS */
+.slider-dots {
+    grid-area: slider-dots;
+    position: relative;
+}
+
+.slider_dots-item_wrapper {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+
+}
+
+.slider_dots-item_wrapper img{
+    width: 100%;
+}
+
+.slider-dots_btn-wrapper {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.slider-dots_nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    position: absolute;
+    left: 0;
+    bottom: 30px;
+    width: 100%;
+}
+
+.slider_dots-nav_item {
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+.slider_dots-nav_item:hover, .slider_dots-nav_item:active{
+    background-color: transparent;
+    border: 1px solid #fff;
+    
+}
+
+
+/* FRESHY */
+.freshy {
+    grid-area: freshy;
+    background-color: #BEE163;
+}
+
+.common {
+    color: #fff;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 30px;
+}
+
+.title {
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-size: 24px;
+    width: 140px;
+    font-weight: 300;
+    line-height: 1;
+
+}
+
+.title span{
+    font-size: 60px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    display: block;
+
+}
+
+.title span::first-line{
+    font-weight: 900;
+}
+
+.common_desc {
+    max-width: 60%;
+    hyphens: auto;
+}
+
+
+.healthy {
+    grid-area: healthy;
+    background-color: #FF494B;
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+    padding-bottom: 85px;
+}
+
+.healthy .common_desc{
+    max-width: 140px;
+}
+
+.thirsty .common_desc {
+    text-align: right;
+    max-width: 200px;
+}
+
+.thirsty {
+    grid-area: thirsty;
+    background-color: #FFBA4A;
+    flex-direction: row-reverse;
+}
+
+
+.orange {
+    grid-area: orange;
+    position: relative;
+}
+
+.orange img{
+    width: 100%;
+    height: 100%;
+}
+
+.orange_btn-wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.orange_arrow {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+.orange_arrow:hover{
+    opacity: 0.8;
+}
+
+.orange_arrow:active{
+    opacity: 0.6;
+}

@@ -1,0 +1,27 @@
+
+    .img_products {
+        margin-left: 93px;
+    }
+
+    .img_products > div {
+        margin-right: -32px;
+    }
+
+    .img_products > div >img {
+        height: 135px;
+        right: 59px;
+    }
+
+    .img_products .nkwolfe {
+        margin-left: 79px;
+    }
+
+    .img_products .slr {
+        height: 112px;
+    }
+
+    .img_products .slr_hover {
+        height: 112px;
+        width: 112px;
+        bottom: 19px;
+    }

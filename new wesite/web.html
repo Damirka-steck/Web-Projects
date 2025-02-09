@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/header_footer.css"/>
+    <link rel="stylesheet" type="text/css" href="css/main_web.css"/>
+    <link rel="stylesheet" type="text/css" href="responsive/responsive.css">
+    <title>Магазин</title>
+</head>
+<body>
+    <header class="container d-flex">
+        <div class="leftb">
+            <a href="#">Контакты</a>
+        </div>
+        <div class="region_list">
+            <select name="region_list" id="region">
+                <option value="Almaty">Алматы</option>
+                <option value="Astana">Астана</option>
+                <option value="Shymkent">Шымкент</option>
+                <option value="Uralsk">Уральск</option>
+            </select>
+        </div>
+        <div class="rightb">
+            <a href="#">Оплата</a>
+            <a href="#">Доставка</a>
+        </div>
+    </header>
+    <main>
+        <div class="header_top d-flex">
+        <div class="header_topleft">
+            
+            <nav class="menu">
+                <li><a class="menu_link" href="#">ЖЕНСКОЕ</a></li>
+                <li><a class="menu_link" href="#">МУЖСКОЕ</a></li>
+                <li><a class="menu_link" href="#">БРЕНДЫ</a></li>
+                <li><a class="menu_link" href="#">SALE</a></li>
+                <li><a class="menu_link" href="#">НОВАЯ КОЛЛЕКЦИЯ</a></li>
+                
+            </nav>
+            </div>
+            <div class="header_topcenter">
+                <img class="logo" src="images/logo.png" alt="logo">
+            </div>
+            <div class="header_topright">
+                <div class="phone"><a href="tel:+77778731519">8 (777) 873 15 19</a></div>
+                <div class="link_social"><a href="#"><img src="images/inst.jpg" alt="inst"></a> <a href="#"><img src="images/tg.png" alt="tg"></a></div>            
+                <div class="currensy">
+                <select name="currensy" id="currensy">
+                    <option value="KZT">KZT</option>
+                    <option value="RUB">RUB</option>
+                    <option value="USD">USD</option>
+                </select>
+                </div>
+                <div class="search">
+                    <a class="icon search" href="#"><img src="images/search_icon.png" alt="search"></a>
+                </div>
+                <div class="profile">
+                    <a class="icon profile_icon" href="#"><img src="images/profile.jpg" alt="profile"></a>
+                </div>
+                <div class="favorite">
+                    <a class="icon favorite" href="#"><img src="images/favorite.png" alt="favorite"></a>
+                </div>
+                <div class="cart">
+                    <a class="icon cart_icon" href="#"><img src="images/cart.jpg" alt="cart"></a>
+                </div>
+                </div>
+            </div>
+
+        <div class="main">
+            <p class="name_store">SFD STORE</p>
+            <p class="description"><span>SFD STORE - МАГАЗИН ИСКЛЮЧИТЕЛЬНОГО КАЧЕСТВА, ПРИЕМЛЕМЫХ ЦЕН И ОГРОМНОГО ВЫБОРА ТОВАРОВ</span></p>
+            
+            <script src="http://code.jquery.com/jquery-2.0.2.min.js"></script>
+        <script>
+        $(document).ready(function(){
+            //Скрыть PopUp при загрузке страницы    
+        PopUpHide();
+        });
+        //Функция отображения PopUp
+        function PopUpShow(){
+            $("#popup1").show();
+        }
+        //Функция скрытия PopUp
+        function PopUpHide(){
+            $("#popup1").hide();
+        }
+        </script>
+
+    <div class="b-container">
+        <a href="javascript:PopUpShow()">НАЖМИТЕ ДЛЯ РЕГИСТРАЦИИ</a>
+    </div>
+    <div class="b-popup" id="popup1">
+        <div class="b-popup-content">
+            <form action="#" method="get">
+                <strong>Введите имя</strong>
+                <div class="input_popup">
+                    <input type="text" name="text" placeholder="Введите Имя">
+                </div>
+                <strong>Введите E-mail</strong>
+                <div class="input_popup">
+                    <input type="email" name="email" placeholder="Введите E-mail">
+                </div>
+                <strong>Введите номер</strong>
+                <div class="input_popup">
+                <input type="tel" name="tel" placeholder="Введите номер">
+                </div>
+                <div class="input_popup">
+                    <button class="submit" type="submit">Зарегистрироваться</button>
+                </div>
+            </form>
+        <a class="close_popup" href="javascript:PopUpHide()"><img src="images/close_icon.png" alt="close"></a>
+        </div>
+        </div>
+        </div>
+        <div class="products">
+            <h1>НАШИ ТОВАРЫ</h1>
+        </div>
+        <div class="img_products ">
+            <div class="nkwolfe">
+                <img class="nakedwlf" src="images/nakedwolfe.jpg" alt="nakedwolfe">
+                <img class="nakedwlf_hover" src="images/nakedwolfe_hover.jpg" alt="nakedwolfe_hover">
+            </div>
+            <div class="discription_products">
+                <div class="discription2 discription_naked"><p class="discrpt_text txt_wolf">Naked Wolfe— гонгконгский бренд обуви, созданный в 2017 году. Компания создает кроссовки и ботинки в современном уличном стиле, бросая вызов традиционным силуэтам и образам спортивной обуви.</p></div>
+                <div class="price price2">
+                <h3><a href="#">350 USD</a></h3>
+                <a class="wie" href="#">Посмотреть</a>
+                </div>
+            </div>
+            <div class="loubutin">
+                <img class="lb" src="images/loubutin.jpg" alt="loubutin">
+                <img class="lb_hover" src="images/loubutin_hover.jpg" alt="loubutin_hover">
+            </div>
+            <div class="discription_products dsc_lb">
+                <div class="discription2"><p class="discrpt_text txt_lb">Внешний вид туфель Christian Louboutin зачастую экстравагантный и очень яркий, броский, однако в ассортименте марки есть и довольно консервативные, сдержанные на вид модели. Уровень официальности — от минимального до максимального.</p></div>
+                <div class="price">
+                <h3><a class="price3 price4" href="#">772 USD</a></h3>
+                <a class="wie wie2" href="#">Посмотреть</a>
+                </div>
+            </div>
+            
+            <div class="sl">
+                <img class="slr" src="images/saintlaurent.jpg" alt="sl">
+                <img class="slr_hover" src="images/saintlaurent_hover.jpg" alt="saintlaurent_hover">
+            </div>
+            <div class="discription_products dsc_sl">
+                <div class="discription2"><p class="discrpt_text txt_sl">Босоножки Saint Laurent - это роскошная утонченная обувь премиального качества. Это классика современной моды, символ статуса и благосостояния. На выбор шикарные золотистые босоножки из кожи на высоком каблуке, серебристые модели на удобной танкетке.ка.</p></div>
+                <div class="price">
+                <h3><a class="price3" href="#">1350 USD</a></h3>
+                <a class="wie wie3" href="#">Посмотреть</a>
+                </div>
+            </div>
+        </div>
+        <div class="our_prem">
+            <h2>НАШИ ПРЕИМУЩЕСТВА</h2>
+        </div>
+        <div class="prem d-flex">
+            <figure class="prem_figure">
+                <img class="prem2" src="images/best_prices.png"/>
+                <figcaption>Лучшие Цены</figcaption>
+            </figure>
+            <figure class="prem_figure">
+                <img class="prem2" src="images/take_care.png"/>
+                <figcaption>Забота о Клиентах</figcaption>
+            </figure>
+            <figure class="prem_figure">
+                <img class="prem2" src="images/payment.png"/>
+                <figcaption>Оплата любыми способами</figcaption>
+            </figure>
+            <figure class="prem_figure">
+                <img  class="prem2" src="images/delivery.png"/>
+                <figcaption>быстрая Доставка</figcaption>
+            </figure>
+            <figure class="prem_figure">
+                <img class="prem2" src="images/warranty.png"/>
+                <figcaption>Гарантия Качества</figcaption>
+            </figure>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer_nav">
+                <nav class="nav catalog">
+                <div class="top_of_guide"><a href="#">КАТАЛОГ</a></div>
+                <div><a href="#">Женское</a></div>
+                <div><a href="#">Мужское</a></div>
+                </nav>
+        </div>
+
+        <div class="footer_nav nav">
+                <nav class="nav guide">
+                <div class="top_of_guide"><a href="#">РУКОВОДСТВО ПО ПОКУПКЕ</a></div>
+                <div><a href="#">Как совершить покупку</a></div>
+                <div><a href="#">Обмен и возврат</a></div>
+                <div><a href="#">Оплата</a></div>
+                <div><a href="#">Доставка</a></div>
+                <div><a href="#">Частые Вопросы</a></div>
+                <div><a href="#">Реквизиты</a></div>
+                <div><a href="#">Таблица Размеров</a></div>
+                </nav>
+        </div>
+
+        <div class="footer_nav nav">
+                <nav class="nav office">
+                <div class="top_of_guide"><a href="#">ЛИЧНЫЙ КАБИНЕТ</a></div>
+                <div><a href="#">Корзина</a></div>
+                <div><a href="#">Личные Данные</a></div>
+                <div><a href="#">Избранные Товары</a></div>
+                <div><a href="#">Мои заказы</a></div>
+                <div><a href="#">Адреса доставки</a></div>
+                </nav>
+        </div>
+
+        <div class="socialM">
+            <p>Мы в соц сетях: <a href="#"><img class="inst" src="images/inst.jpg" alt="inst"></a> <a  href="#"><img class="tg" src="images/tg.png" alt="tg"></a></p> 
+            
+        </div>
+    </footer>
+</body>
+</html>

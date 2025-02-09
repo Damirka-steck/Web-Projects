@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Secular+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Secular+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Secular+One&display=swap');
+
+body{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.container{
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+
+/* HEADER */
+
+.header {
+    display: grid;    
+    grid-template: '. logo nav search' max-content / 2fr 1fr 2.5fr 0.5fr;
+    align-items: center;
+    justify-items: start;
+
+    padding: 20px 0;
+    text-transform: uppercase;
+
+    overflow: hidden;
+}
+
+
+.logo {
+    font-family: 'Secular One', sans-serif;
+    font-weight: 400;
+    color: #FF4747;
+    font-size: 24px;
+    width: 150px;
+    line-height: 1;
+
+    grid-area: logo;
+    justify-self: start;
+}
+
+.header_nav {
+    grid-area: nav;
+}
+
+.header_nav ul{
+    display: flex;
+    gap: 10px;
+}
+
+.header_nav a , .logo{
+    padding: 15px;
+    transition: 0.8s color;
+
+    position: relative;
+    display: inline-block;
+}
+
+.header_nav a:hover , .logo:hover {
+    color: #01BCB5;
+}
+
+.header_nav a:active{
+    color: #20aaa3;
+}
+
+.header_nav a::after{
+    content: "";
+    background-color: #01BCB5;
+    display: block;
+    width: 80%;
+    height: 100%;
+
+    position: absolute;
+    left: 15px;
+    bottom: -200%;
+
+    transition: bottom 0.8s, background-color 0.5s;
+}
+
+.header_nav a:hover::after{
+    bottom: -80%;
+    
+}
+
+.header_nav a:active::after{
+    background-color: #20aaa3;
+    transition: 1s;
+}
+
+.search {
+    grid-area: search;
+}
+
+.search_item{
+    transition: 0.5s;
+}
+
+.search_item:hover{
+    fill: #01BCB5;
+}
+
+.search_item:active{
+    fill: #20aaa3;
+}
+
+
+/* BURGER MENU */
+.menu-icon{
+    width: 40px;
+    height: 30px;
+
+    position: relative;
+}
+
+.menu-icon_line {
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: #000;
+}
+
+
+.menu-icon::after, .menu-icon::before{
+    content: '';
+    position: absolute;
+    left: 0;
+
+}
+
+.menu-icon::before{
+    top: 0;
+    transition: transform 0.5s, top 0.5s 0.4s ;
+}
+
+.menu-icon::after{
+    bottom: 0;
+    transition: transform 0.5s, bottom 0.5s 0.4s ;
+}
+
+
+
+.menu-icon_line, .menu-icon::after, .menu-icon::before{
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: #000;
+}
+
+.menu-icon--active .menu-icon_line{
+    display: none;
+}
+
+.menu-icon--active::before{
+    transform: translateY(-50%) rotate(45deg);
+    top: 50%;
+    transition: top 0.5s, transform 0.5s 0.4s;
+}
+
+.menu-icon--active::after{
+    transform: translateY(50%) rotate(-45deg);
+    bottom: 50%;
+    transition: bottom 0.5s, transform 0.5s 0.4s;
+}
+
+.menu-icon{
+    display: none;
+}
+
+.no-scrol{
+    overflow: hidden;
+}
+
+button{
+    -webkit-tap-highlight-color: transparent;
+}

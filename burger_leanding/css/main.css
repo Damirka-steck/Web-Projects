@@ -1,0 +1,384 @@
+h1,h2,h3,h4,h5,h6{
+    font-weight: 500;
+    margin: 0;
+}
+
+p{
+    margin: 0;
+}
+
+p + p{
+    margin-top: 15px;
+}
+
+
+.welcome {
+    box-sizing: border-box;
+    min-height: 100vh;
+
+    padding: 240px 0;
+    margin-top: -185px;
+
+    background-image: url("/images/main_burger.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.welcome_text{
+    width: 550px;
+}
+
+.welkome_s {
+    font-size: 14px;
+    letter-spacing: 0.1em;
+    margin-bottom: 7px;
+}
+
+.welcome_t {
+    font-size: 58px;
+}
+
+.welcome_desk {
+    font-size: 18px;
+    opacity: 0.7;
+    margin: 40px 0;
+}
+
+/* food list carts */
+.food_list .container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 40px 15px;
+}
+
+.food_list {
+    padding: 100px 0;
+}
+
+.food-list_cart {
+    width: 260px;
+    
+    overflow: hidden;
+    text-align: center;
+
+    background: #312F30;
+    border-radius: 10px;
+}
+
+.food_list_image {
+    width: 100%;
+    height: 175px;
+    object-fit: cover;
+}
+
+.food-ls_txt-wrapp{
+    padding: 30px 20px;
+}
+
+.food-list_t {
+    font-size: 20px;
+    margin-bottom: 13px;
+}
+
+.food-list_desc {
+    font-size: 16px;
+    opacity: 0.7;
+}
+
+
+
+/* Order */
+
+.order {
+    background: #312F30;
+    padding: 60px 0;
+}
+
+.order .container{
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding-right: 90px;
+}
+
+.order_img {
+   max-width: 470px;
+}
+
+.order_txt {
+    max-width: 345px;
+}
+
+.order_t {
+    margin-bottom: 25px;
+    font-size: 30px;
+}
+
+.order_desc {
+    margin-bottom: 15px;
+    font-size: 16px;
+    opacity: 0.7;
+}
+
+.order_price {
+    font-weight: 500;
+    color: #F6762C;
+    font-size: 20px;
+    letter-spacing: 0.1em;
+}
+
+.order_price--old{
+    text-decoration-line: line-through;
+    font-size: 16px;
+    opacity: 0.5;
+}
+
+.order_price + .order_price{
+    margin-left: 3px;
+}
+
+.order > .btn {
+    margin-top: 10px;
+}
+
+
+/* product list */
+
+.product {
+    padding: 150px 0;
+}
+
+.product .container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+.product_card {
+    box-sizing: border-box;
+
+    width: 555px;
+    min-height: 300px;
+
+    padding: 60px 45px 60px 290px;
+
+    background-color: #4b3a3a;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.product_card:nth-child(even){
+    padding-left: 30px;
+    padding-right: 290px;
+}
+
+.product_t {
+    
+
+    font-size: 30px;
+    margin-bottom: 20px;
+
+    
+}
+
+.product_desc {
+    margin-bottom: 10px;
+    opacity: 0.7;
+}
+
+.product_price {
+    font-weight: 500;
+    color: #F6762C;
+    letter-spacing: 0.1em;
+}
+
+.product_price + .product_price{
+    margin-left: 5px;
+}
+
+.product_price--old {
+    text-decoration-line: line-through;
+    opacity: 0.5;
+    color: #F6762C;
+}
+
+.product .btn{
+    margin-top: 10px;
+}
+
+.card_queen{
+    background-image: url('/images/dairy_queen.jpg'); 
+}
+
+.card_pizza_hut{
+    background-image: url('/images/pizza_hut.jpg');
+}
+
+.card_burger_k{
+    background-image: url('/images/burger_king.jpg');    
+}
+
+.card_papa_j{
+    background-image: url('/images/papa_johns.jpg');
+}
+
+
+
+/* feedback */
+.feedback {
+    padding-bottom: 200px;
+}
+
+.feedback .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    max-width: 880px;
+
+}
+
+.feedback_txt {
+    margin: 0;
+    text-align: center;
+
+    max-width: 370px;
+
+    /* display: flex;
+    flex-direction: column; */
+}
+
+.feedback_txt::before{
+    content: url('/images/flout.svg');
+}
+
+.feedback_desc {
+    opacity: 0.7;
+    margin: 30px 0;
+}
+
+.feedback_avtor {
+    font-weight: 500;
+    font-style: normal;
+    font-size: 24px;
+}
+
+.feedback_subauthor {
+    font-weight: 500;
+    font-size: 12px;
+    opacity: 0.7;
+
+    display: block;
+}
+
+/* download section */
+.download {
+    background: #312F30;
+    padding: 60px 0;
+}
+
+.download .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.download_t {
+    font-weight: 500;
+    font-size: 40px;
+}
+
+/* footer */
+
+.footer {
+    padding: 120px 0;
+}
+
+.footer a{
+    font-weight: 400;
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.8);
+    transition: 0.2s color;
+}
+
+.footer a:hover{
+    color: rgba(255, 255, 255, 1);
+}
+
+.footer .footer_title {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+.footer .container {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+
+}
+
+.footer_contact {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.footer_logo {
+    display: block;
+    margin-bottom: 20px;
+    width: 70px;
+}
+
+.footer_link{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.footer_link + .footer_link {
+    margin-top: 10px; 
+}
+
+.footer_link::before{
+    width: 12px;
+    height: 12px;
+}
+
+.footer_link-mail::before {
+    content: url('/images/email.svg');
+
+}
+
+.footer_link-web::before {
+    content: url('/images/webNet.svg');
+}
+
+.footer_list{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.footer_inner {
+    padding: 0;
+}
+
+.footer_item + .footer_item{
+    margin-top: 15px;
+}
+
+.footer_s {
+    padding-top: 13px;
+}
+
+.footer_social_link + .footer_social_link{
+    margin-left: 8px;
+}

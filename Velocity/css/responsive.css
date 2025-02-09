@@ -1,0 +1,109 @@
+@media screen and (max-width: 970px) {
+    .about .cards_wrapper{
+        justify-content: space-evenly;
+    }
+    
+}
+
+@media screen and (max-width: 830px) {
+    .footer_desc-container{
+        justify-content: space-evenly;
+    }
+    
+    .footer_desc{
+        padding-top: 0;
+    }
+}
+
+@media screen and (max-width: 760px) {
+
+    .footer_desc{
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 650px){
+    .welcome {
+        height: 70vh;
+
+    }
+    
+    .welcome_heading {
+        font-size: 40px;
+        margin-bottom: 50px;
+    }
+
+    .tabs_nav{
+        margin-bottom: 30px;
+    }
+
+    .tabs_nav button{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px 30px;
+    }
+    
+    .tabs_nav button + button{
+        margin-left: auto;
+        margin-top: 15px;
+    }
+
+    
+}
+
+@media screen and (max-width: 600px) {
+    .servises .cards_wrapper {
+        flex-direction: column;
+        align-self: center;
+        gap: 40px;
+    }
+
+    .servises .card{
+        width: 80%;
+    }
+
+    .tt_wrapper{
+        margin-bottom: 40px;
+    }
+}
+
+@media screen and (max-width: 410px) {
+    .header_nav li + li{
+        margin-left: 15px;
+    }
+
+    .welcome_links a{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+    }
+
+    .welcome_links > * + *{
+        margin-top: 20px;
+    }
+
+    body{
+        font-size: 12px;
+    }
+
+    .about_card h4{
+        font-size: 16px;
+    }
+    .servises .card h4{
+        font-size: 16px;
+    }
+
+    .servises .card .link{
+        font-size: 14px;
+    }
+
+    .tabs_item h4{
+        font-size: 25px;
+    }
+
+}
+
+
+

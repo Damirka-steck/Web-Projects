@@ -1,0 +1,233 @@
+.block1{
+    justify-content: left;
+    align-items: flex-start;
+}
+
+.block1 .menu{
+    width: 200px;
+    margin-right: 20px;
+        transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.block1 .menu a{
+    display: block;
+    text-decoration: none;
+    color: #7b7b7d;
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    padding: 12px 25px;
+
+}
+
+.block1 .menu a:hover,
+.block1 .menu a.active{
+    color: #ffffff;
+    font-weight: bold;
+    background-color: #ebb217;
+    border-radius: 20px;
+
+}
+
+.block1 .items{
+    padding-left: 25px;
+}
+
+.block1 .items .sort{
+    margin-bottom: 25px;
+}
+
+.block1 .items .sort p{
+    color: #444444;
+    font-size: 0.875em;
+    margin-top: 12px;
+    margin-left: 25px;
+
+}
+
+.block1 .items .sort p a{
+    display: inline-block;
+    text-decoration: none;
+    color: #000000;
+    margin-left: 10px;
+    width: 49px;
+    background: url('../images/up_icon.png') no-repeat;
+    background-size: 17px;
+    background-position: 100% 10%;
+}
+
+.block1 .items .sort p a:hover,
+.block1 .items .sort p a.active{
+    background: url('../images/down_icon.png') no-repeat;
+    background-size: 12px;
+    color: #ebb217;
+    font-weight: 600;
+    background-position: 100% 10%;
+}
+
+.block1 .items .boxes{
+    flex-wrap: wrap;
+    margin-left: 10px;
+}
+
+.block1 .items .boxes .box{
+    margin-bottom: 28px;
+}
+
+.box figure figcaption{
+    padding-left: 28px;
+    color: #4b4b4e;
+}
+
+.box figure figcaption p{
+    font-size: 0.938em;
+}
+
+.box figure figcaption p span{
+    font-size: 1.2em;
+    font-weight: 600;
+
+}
+
+.box .title{
+    color: #4b4b4e;
+    font-size: 1em;
+    padding-left: 23px;
+    margin-top: 10px;
+}
+
+.box button{
+    width: 100%;
+    padding: 12px;
+    border-radius: 20px;
+    background-color: #dfa52b;
+    color: #fff;
+    margin-top: 15px;
+    border: none;
+}
+
+.box button:hover{
+    cursor: pointer;
+}
+
+.block1 .pagination .next{
+    width: 12px;
+    height: 12px;
+    margin-bottom: 1px;
+}
+
+.block1 .pagination .last{
+    width: 12px;
+    height: 12px;
+    margin-bottom: 1px;
+}
+
+.block1 .pagination img{
+    width: 15px;
+    height: 15px;
+}
+
+.block1 .pagination a{
+    margin: 0 5px;
+    color: #686868;
+    text-decoration: none;
+}
+
+.block1 .pagination a:hover,
+.block1 .pagination a.active{
+    color: #ebb217;
+    font-weight: 900;
+}
+
+.block1 .pagination{
+    text-align: center;
+}
+
+
+.news h2, .adv h2, .sub h2{
+    text-align: center;
+    margin-top: 75px;
+    margin-bottom: 45px;
+    color: #4b4b4e;
+    font-size: 1.875em;
+    font-weight: 600;
+}
+
+.news > .box{
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin-left: 80px;
+}
+
+.adv div p{
+    color: #838388;
+    font-size: 1.125em;
+    font-weight: 300;
+    max-width: 250px;
+}
+
+.adv div p span{
+    font-weight: bold;
+}
+
+.adv div figure{
+    margin: 0 25px;
+    text-align: center;
+}
+
+.adv div figcaption{
+    color: #a9a9ad;
+    font-size: 0.875em;
+    font-weight: 300;
+}
+
+.sub{
+    text-align: center;
+}
+
+.sub h2{
+    margin-bottom: 10px;
+}
+
+.sub .title{
+    font-size: 1.250em;
+    color: #4b4b4e;
+    font-weight: 600;
+    margin-bottom: 45px;
+}
+
+.sub form div input{
+    border-radius: 20px;
+    font-size: 0.938em;
+}
+
+.sub form div input[type='email']{
+    padding: 15px 15px;
+    border: 1px solid #a9a9ad;
+    width: 260px;
+}
+
+.sub form div input[type='submit']{
+    border: none;
+    padding: 15px;
+    width: 260px;
+    text-align: center;
+    background-color: #4b4b4e;
+    color: #fff;
+}
+
+.sub form div input[type='submit']:hover{
+    cursor: pointer;
+
+}
+
+.sub p:not(.title){
+    font-size: 13px;
+    color: #8b8b8d;
+    margin-top: 15px;
+    margin-bottom: 60px;
+}
+
+.sub p:not(.title) a{
+    color: #9393f1;
+    
+}
